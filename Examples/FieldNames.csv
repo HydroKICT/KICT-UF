@@ -1,0 +1,344 @@
+Layer,Field Name,Full Field Name,Field Description
+2D boundary,bed_load_b,bed_load_boundary,하상 부하 경계 유형
+2D boundary,BndLnTyp,line_type,경계선 유형
+2D boundary,headufl_id,head_unit_discharge_id,수두 단위 유량 표
+2D boundary,hotlinks,hotlinks,Hotlinks
+2D boundary,length,length,연장
+2D boundary,line_id,line_id,이름
+2D boundary,suspended_,suspended_load_boundary,부유 하중 경계 유형
+2D boundary,UN1,user_number_1,사용자 번호 1
+2D boundary,UN10,user_number_10,사용자 번호 10
+2D boundary,UN2,user_number_2,사용자 번호 2
+2D boundary,UN3,user_number_3,사용자 번호 3
+2D boundary,UN4,user_number_4,사용자 번호 4
+2D boundary,UN5,user_number_5,사용자 번호 5
+2D boundary,UN6,user_number_6,사용자 번호 6
+2D boundary,UN7,user_number_7,사용자 번호 7
+2D boundary,UN8,user_number_8,사용자 번호 8
+2D boundary,UN9,user_number_9,사용자 번호 9
+2D boundary,UT1,user_text_1,사용자 텍스트 1
+2D boundary,UT10,user_text_10,사용자 텍스트 10
+2D boundary,UT2,user_text_2,사용자 텍스트 2
+2D boundary,UT3,user_text_3,사용자 텍스트 3
+2D boundary,UT4,user_text_4,사용자 텍스트 4
+2D boundary,UT5,user_text_5,사용자 텍스트 5
+2D boundary,UT6,user_text_6,사용자 텍스트 6
+2D boundary,UT7,user_text_7,사용자 텍스트 7
+2D boundary,UT8,user_text_8,사용자 텍스트 8
+2D boundary,UT9,user_text_9,사용자 텍스트 9
+2D simulation elements,element_no,element_no,element_no
+2D simulation elements,zone_id,zone_id,zone_id
+Building,2d_point_i,2d_pt_id,2D 포인트 ID
+Building,bldgid,building_id,Building ID
+Building,cap_limit,capacity_limit,Capacity limit
+Building,cat_slope,catchment_slope,경사도
+Building,cont_area,contributing_area,기여 면적
+Building,drains_to,drains_to,배수 to
+Building,evap_prof,evaporation_profile,증발 프로필
+Building,Height,height,높이
+Building,hotlinks,hotlinks,Hotlinks
+Building,Level,level,깊이
+Building,linksuffix,link_suffix,링크 확장자
+Building,low_lt_lvl,lower_limit_level,하한 레벨
+Building,lvl_type,level_type,유형
+Building,node_id,node_id,노드 ID
+Building,out_lag,output_lag,출력 지체
+Building,Porosity,porosity,공극율
+Building,rain_prof,rainfall_profile,강우량 프로파일
+Building,RaiseBy,raise_by,상승값
+Building,rough_defn,roughness_definition_id,조도 정의
+Building,Roughness,roughness,조도 (Manning's n)
+Building,systemtype,system_type,시스템 유형
+Building,total_area,total_area,전체 면적
+Building,UN1,user_number_1,사용자 번호 1
+Building,UN10,user_number_10,사용자 번호 10
+Building,UN2,user_number_2,사용자 번호 2
+Building,UN3,user_number_3,사용자 번호 3
+Building,UN4,user_number_4,사용자 번호 4
+Building,UN5,user_number_5,사용자 번호 5
+Building,UN6,user_number_6,사용자 번호 6
+Building,UN7,user_number_7,사용자 번호 7
+Building,UN8,user_number_8,사용자 번호 8
+Building,UN9,user_number_9,사용자 번호 9
+Building,upp_lt_lvl,upper_limit_level,상위 한계 수위
+Building,use_low_lt,use_lower_limit,하위 한계 이용
+Building,use_upp_lt,use_upper_limit,상위 한계 이용
+Building,UT1,user_text_1,사용자 텍스트 1
+Building,UT10,user_text_10,사용자 텍스트 10
+Building,UT2,user_text_2,사용자 텍스트 2
+Building,UT3,user_text_3,사용자 텍스트 3
+Building,UT4,user_text_4,사용자 텍스트 4
+Building,UT5,user_text_5,사용자 텍스트 5
+Building,UT6,user_text_6,사용자 텍스트 6
+Building,UT7,user_text_7,사용자 텍스트 7
+Building,UT8,user_text_8,사용자 텍스트 8
+Building,UT9,user_text_9,사용자 텍스트 9
+Building,x,x,X
+Building,y,y,Y
+Conduit,asset_id,asset_id,자산 ID
+Conduit,asset_uid,asset_uid,InfoAsset 고유 ID
+Conduit,baseheight,base_height,기준 높이
+Conduit,bot_man,bottom_roughness_Manning,하단 조도 Manning's 1/n
+Conduit,bot_n,bottom_roughness_N,하단 조도 Manning's
+Conduit,bot_rcw,bottom_roughness_CW,하단 조도 Colebrook-White
+Conduit,bot_rhw,bottom_roughness_HW,하단 조도 HW
+Conduit,branch_id,branch_id,분기 ID
+Conduit,c,c,c
+Conduit,c_o,c_o,c (outlet)
+Conduit,capacity,capacity,전체 용량
+Conduit,condheight,conduit_height,높이
+Conduit,condlen,conduit_length,연장
+Conduit,condmat,conduit_material,관 재질
+Conduit,condtype,conduit_type,관 유형
+Conduit,condwidth,conduit_width,너비
+Conduit,conncoeff,connection_coefficient,수직 연결 계수
+Conduit,critsewcat,critical_sewer_category,임계 하수도 범주
+Conduit,d1dd0,diff1d_d0,1d 확산 d0
+Conduit,d1dd1,diff1d_d1,1d 확산 d1
+Conduit,d1dd2,diff1d_d2,1d 확산 d2
+Conduit,d1dtype,diff1d_type,1d 확산 유형
+Conduit,design_grp,design_group,설계 그룹
+Conduit,ds_invert,ds_invert,하류 관저고
+Conduit,ds_ki,ds_ki,유입구 수두손실 계수 (Ki)
+Conduit,ds_ko,ds_ko,방류구 수두손실 계수 (Ko)
+Conduit,ds_node_id,ds_node_id,하류 노드 ID
+Conduit,ds_set_eff,ds_settlement_eff,하류 침전 효율(%)
+Conduit,dslosscoef,ds_headloss_coeff,하류 수두손실 계수
+Conduit,dslosstype,ds_headloss_type,하류 수두손실 유형
+Conduit,equation,equation,방정식
+Conduit,equation_o,equation_o,Outlet equation
+Conduit,gradient,gradient,구배
+Conduit,ground_con,ground_condition,지표 조건
+Conduit,hotlinks,hotlinks,Hotlinks
+Conduit,id,id,Object ID
+Conduit,infiltnbas,infiltration_coeff_base,기준 침투 손실 계수
+Conduit,infiltnsid,infiltration_coeff_side,측면 침투 손실 계수
+Conduit,inflow,inflow,유입 유량
+Conduit,inlet_code,inlet_type_code,암거 코드
+Conduit,k,k,K
+Conduit,k_o,k_o,K (outlet)
+Conduit,link_type,link_type,링크 유형
+Conduit,linksuffix,link_suffix,링크 확장자
+Conduit,m,m,M
+Conduit,m_o,m_o,M (outlet)
+Conduit,min_comput,min_computational_nodes,최소 계산 노드
+Conduit,minspcstp,min_space_step,최소 공간 간격
+Conduit,numbarrels,number_of_barrels,련(Barrels) 수
+Conduit,outlet_cod,outlet_type_code,Outlet culvert code
+Conduit,rev_model,reverse_flow_model,역류 모델
+Conduit,rough_type,roughness_type,조도 유형
+Conduit,sed_depth,sediment_depth,침전 깊이
+Conduit,sewer_ref,sewer_reference,하수도 참조
+Conduit,shape_1,shape,형상 ID
+Conduit,site_cond,site_condition,현장 상태
+Conduit,slotwdth,slot_width,슬롯 너비
+Conduit,solvemodel,solution_model,솔루션 모델
+Conduit,springingh,springing_height,도약 높이
+Conduit,systemtype,system_type,시스템 유형
+Conduit,takeoffref,taking_off_reference,참조 제거
+Conduit,top_man,top_roughness_Manning,상단 조도 Manning's 1/n
+Conduit,top_n,top_roughness_N,상단 조도 Manning's n
+Conduit,top_rcw,top_roughness_CW,상단 조도 Colebrook-White
+Conduit,top_rhw,top_roughness_HW,상단 조도 HW
+Conduit,UN1,user_number_1,사용자 번호 1
+Conduit,UN10,user_number_10,사용자 번호 10
+Conduit,UN2,user_number_2,사용자 번호 2
+Conduit,UN3,user_number_3,사용자 번호 3
+Conduit,UN4,user_number_4,사용자 번호 4
+Conduit,UN5,user_number_5,사용자 번호 5
+Conduit,UN6,user_number_6,사용자 번호 6
+Conduit,UN7,user_number_7,사용자 번호 7
+Conduit,UN8,user_number_8,사용자 번호 8
+Conduit,UN9,user_number_9,사용자 번호 9
+Conduit,us_invert,us_invert,상류 관저고
+Conduit,us_ki,us_ki,유입구 수두손실 계수 (Ki)
+Conduit,us_ko,us_ko,방류구 수두손실 계수 (Ko)
+Conduit,us_node_id,us_node_id,상류 노드 ID
+Conduit,us_set_eff,us_settlement_eff,상류 침전 효율 (%)
+Conduit,uslosscoef,us_headloss_coeff,상류 수두손실 계수
+Conduit,uslosstype,us_headloss_type,상류 수두손실 유형
+Conduit,UT1,user_text_1,사용자 텍스트 1
+Conduit,UT10,user_text_10,사용자 텍스트 10
+Conduit,UT2,user_text_2,사용자 텍스트 2
+Conduit,UT3,user_text_3,사용자 텍스트 3
+Conduit,UT4,user_text_4,사용자 텍스트 4
+Conduit,UT5,user_text_5,사용자 텍스트 5
+Conduit,UT6,user_text_6,사용자 텍스트 6
+Conduit,UT7,user_text_7,사용자 텍스트 7
+Conduit,UT8,user_text_8,사용자 텍스트 8
+Conduit,UT9,user_text_9,사용자 텍스트 9
+Conduit,y,y,Y
+Conduit,y_o,y_o,Y (outlet)
+Node,2dlnktype,2d_link_type,1D-2D 연결 기준
+Node,asset_id,asset_id,자산 ID
+Node,asset_uid,asset_uid,InfoAsset 고유 ID
+Node,base_area,base_area,기저 면적
+Node,benchmetho,benching_method,벤칭 방식
+Node,cha_aacom,chamber_area_add_comp,챔버 추가 저장: 보충
+Node,cha_aacor,chamber_area_add_ncorrect,챔버 추가 저장: 조정
+Node,cha_aasim,chamber_area_add_simplify,챔버 추가 저장: 단일화
+Node,cha_aatot,chamber_area_additional_total,챔버 추가 저장: 총계
+Node,cha_aausr,chamber_area_additional,챔버 추가 저장: 사용자
+Node,chambarea,chamber_area,챔버 계획 지역
+Node,chambfloor,chamber_floor,챔버 바닥 높이
+Node,chambroof,chamber_roof,챔버 뚜껑 높이
+Node,conn_type,connection_type,연결 유형
+Node,elt_area_f,element_area_factor_2d,2D 요소 지역 인자
+Node,fl_disch_c,flooding_discharge_coeff,홍수 유량 계수
+Node,fldarea1,flood_area_1,침수 면적 1 (%)
+Node,fldarea2,flood_area_2,침수 면적 2 (%)
+Node,floodablea,floodable_area,침수 가능 면적
+Node,flooddep1,flood_depth_1,침수심 1
+Node,flooddep2,flood_depth_2,침수심 2
+Node,floodlevel,flood_level,홍수위
+Node,floodtype,flood_type,침수 유형
+Node,floweff_id,flow_efficiency_id,유입구 유량 효율 표
+Node,ground_lev,ground_level,지반고
+Node,half_road_,half_road_width,도로 너비 절반
+Node,headdis_id,head_discharge_id,수두 유량 표
+Node,hotlinks,hotlinks,Hotlinks
+Node,infiltn,infiltration_coeff,침투 손실 계수
+Node,infltn_al,infiltratn_coeff_abv_liner,라이너 이상 침투 손실 계수
+Node,infltn_av,infiltratn_coeff_abv_vegn,식생 이상 침투 손실 계수
+Node,infltn_bl,infiltratn_coeff_blw_liner,라이너 이하 침투 손실 계수
+Node,LatLinkSuf,lateral_link_suffix,측면 링크 확장자
+Node,LatNodeID,lateral_node_id,측면 노드 ID
+Node,linr_lev,liner_level,라이너 레벨
+Node,ngullies,n_gullies,도랑 수
+Node,node_id,node_id,노드 ID
+Node,node_type,node_type,노드 유형
+Node,perimeter,perimeter,둘레
+Node,porosity,porosity,공극율
+Node,relstages,relative_stages,상대 단계
+Node,sha_aacom,shaft_area_add_comp,샤프트 추가 저장: 보충
+Node,sha_aacor,shaft_area_add_ncorrect,샤프트 추가 저장: 수정
+Node,sha_aasim,shaft_area_add_simplify,샤프트 추가 저장: 단일화
+Node,sha_aatot,shaft_area_additional_total,샤프트 추가 저장: 총합
+Node,sha_aausr,shaft_area_additional,샤프트 추가 저장: 사용자
+Node,shaft_area,shaft_area,샤프트 계획 면적
+Node,systemtype,system_type,시스템 유형
+Node,UN1,user_number_1,사용자 번호 1
+Node,UN10,user_number_10,사용자 번호 10
+Node,UN2,user_number_2,사용자 번호 2
+Node,UN3,user_number_3,사용자 번호 3
+Node,UN4,user_number_4,사용자 번호 4
+Node,UN5,user_number_5,사용자 번호 5
+Node,UN6,user_number_6,사용자 번호 6
+Node,UN7,user_number_7,사용자 번호 7
+Node,UN8,user_number_8,사용자 번호 8
+Node,UN9,user_number_9,사용자 번호 9
+Node,UT1,user_text_1,사용자 텍스트 1
+Node,UT10,user_text_10,사용자 텍스트 10
+Node,UT2,user_text_2,사용자 텍스트 2
+Node,UT3,user_text_3,사용자 텍스트 3
+Node,UT4,user_text_4,사용자 텍스트 4
+Node,UT5,user_text_5,사용자 텍스트 5
+Node,UT6,user_text_6,사용자 텍스트 6
+Node,UT7,user_text_7,사용자 텍스트 7
+Node,UT8,user_text_8,사용자 텍스트 8
+Node,UT9,user_text_9,사용자 텍스트 9
+Node,vegn_lv,vegetation_level,식생 레벨
+Node,x,x,X
+Node,y,y,Y
+Subcatchment,2d_point_i,2d_pt_id,2D 포인트 ID
+Subcatchment,a_abs_1,area_absolute_1,유출 면적 1 절대값
+Subcatchment,a_abs_10,area_absolute_10,유출 면적 10 절대값
+Subcatchment,a_abs_11,area_absolute_11,유출 면적 11 절대값
+Subcatchment,a_abs_12,area_absolute_12,유출 면적 12 절대값
+Subcatchment,a_abs_2,area_absolute_2,유출 면적 2 절대값
+Subcatchment,a_abs_3,area_absolute_3,유출 면적 3 절대값
+Subcatchment,a_abs_4,area_absolute_4,유출 면적 4 절대값
+Subcatchment,a_abs_5,area_absolute_5,유출 면적 5 절대값
+Subcatchment,a_abs_6,area_absolute_6,유출 면적 6 절대값
+Subcatchment,a_abs_7,area_absolute_7,유출 면적 7 절대값
+Subcatchment,a_abs_8,area_absolute_8,유출 면적 8 절대값
+Subcatchment,a_abs_9,area_absolute_9,유출 면적 9 절대값
+Subcatchment,a_per_1,area_percent_1,유출 면적 1 (%)
+Subcatchment,a_per_10,area_percent_10,유출 면적 10 (%)
+Subcatchment,a_per_11,area_percent_11,유출 면적 11 (%)
+Subcatchment,a_per_12,area_percent_12,유출 면적 12 (%)
+Subcatchment,a_per_2,area_percent_2,유출 면적 2 (%)
+Subcatchment,a_per_3,area_percent_3,유출 면적 3 (%)
+Subcatchment,a_per_4,area_percent_4,유출 면적 4 (%)
+Subcatchment,a_per_5,area_percent_5,유출 면적 5 (%)
+Subcatchment,a_per_6,area_percent_6,유출 면적 6 (%)
+Subcatchment,a_per_7,area_percent_7,유출 면적 7 (%)
+Subcatchment,a_per_8,area_percent_8,유출 면적 8 (%)
+Subcatchment,a_per_9,area_percent_9,유출 면적 9 (%)
+Subcatchment,aa_rain,area_average_rain,면적-평균 우량 이용
+Subcatchment,addfoulflw,additional_foul_flow,추가 오수 유량
+Subcatchment,area_type,area_measurement_type,면적 측정 유형
+Subcatchment,arma_id,arma_id,ARAM ID
+Subcatchment,base_flow,base_flow,기저 유량
+Subcatchment,bf_lag,baseflow_lag,기저유량 지체
+Subcatchment,bf_rechar,baseflow_recharge,기저유량 함양
+Subcatchment,bsfl_calc,baseflow_calc,기저유량 계산
+Subcatchment,bypass_ro,bypass_runoff,우회 유출
+Subcatchment,cap_limit,capacity_limit,Capacity limit
+Subcatchment,cat_dim,catchment_dimension,너비
+Subcatchment,cat_slope,catchment_slope,경사도
+Subcatchment,cmax,max_soil_moisture_capacity,최대 토양 함수량
+Subcatchment,cn,curve_number,유출곡선 지수
+Subcatchment,connect,connectivity,연결도 (%)
+Subcatchment,cont_area,contributing_area,기여 면적
+Subcatchment,deg_urb,degree_urbanisation,도시화 정도
+Subcatchment,drains_to,drains_to,배수 to
+Subcatchment,evap_prof,evaporation_profile,증발 프로필
+Subcatchment,gnd_node,ground_node,지표 침투 노드
+Subcatchment,ground_id,ground_id,지표 침투 ID
+Subcatchment,hotlinks,hotlinks,Hotlinks
+Subcatchment,int_rout,internal_routing,내부 라우팅
+Subcatchment,landuse_id,land_use_id,토지이용 ID
+Subcatchment,lat_wgt,lateral_weights,측면 가중치
+Subcatchment,linksuffix,link_suffix,링크 확장자
+Subcatchment,node_id,node_id,노드 ID
+Subcatchment,out_lag,output_lag,출력 지체
+Subcatchment,pct_rout,percent_routed,내부적으로 라우팅된 유출 (%)
+Subcatchment,pdm_d,pdm_descriptor_id,PDM 서술자
+Subcatchment,population,population,인구
+Subcatchment,rafts_af,rafts_adapt_factor,RAFTS 조정 인자
+Subcatchment,rafts_b,rafts_b,RAFTS B
+Subcatchment,rafts_n,rafts_n,RAFTS n
+Subcatchment,rain_prof,rainfall_profile,강우량 프로파일
+Subcatchment,smd,soil_moist_def,토양 수분 부족
+Subcatchment,soil_class,soil_class,WRAP 토양 유형
+Subcatchment,soilclshst,soil_class_host,HOST 토양 등급
+Subcatchment,soilclstyp,soil_class_type,SPR 계산
+Subcatchment,sp_id,snow_pack_id,적설
+Subcatchment,srm_k1,srm_k1,SRM 선형 시간 상수 1
+Subcatchment,srm_k2,srm_k2,SRM 선형 시간 상수 2
+Subcatchment,srm_run_co,srm_runoff_coeff,SRM 유출 계수
+Subcatchment,srm_tdly,srm_tdly,SRM 시간 지연
+Subcatchment,subcatid,subcatchment_id,소유역 ID
+Subcatchment,SurfaceRAF,rafts_per_surface,표면 당 RAFTS B
+Subcatchment,systemtype,system_type,시스템 유형
+Subcatchment,to_sub_id,to_subcatchment_id,종점 소유역 ID
+Subcatchment,total_area,total_area,전체 면적
+Subcatchment,trade_flow,trade_flow,유량 교환
+Subcatchment,trade_prof,trade_profile,프로파일 교환
+Subcatchment,uh_id,unit_hydrograph_id,RTK 수문곡선
+Subcatchment,uh_kink,uh_kink,굽은 정도
+Subcatchment,uh_peak,uh_peak,단위 수문곡선 첨두
+Subcatchment,UN1,user_number_1,사용자 번호 1
+Subcatchment,UN10,user_number_10,사용자 번호 10
+Subcatchment,UN2,user_number_2,사용자 번호 2
+Subcatchment,UN3,user_number_3,사용자 번호 3
+Subcatchment,UN4,user_number_4,사용자 번호 4
+Subcatchment,UN5,user_number_5,사용자 번호 5
+Subcatchment,UN6,user_number_6,사용자 번호 6
+Subcatchment,UN7,user_number_7,사용자 번호 7
+Subcatchment,UN8,user_number_8,사용자 번호 8
+Subcatchment,UN9,user_number_9,사용자 번호 9
+Subcatchment,UT1,user_text_1,사용자 텍스트 1
+Subcatchment,UT10,user_text_10,사용자 텍스트 10
+Subcatchment,UT2,user_text_2,사용자 텍스트 2
+Subcatchment,UT3,user_text_3,사용자 텍스트 3
+Subcatchment,UT4,user_text_4,사용자 텍스트 4
+Subcatchment,UT5,user_text_5,사용자 텍스트 5
+Subcatchment,UT6,user_text_6,사용자 텍스트 6
+Subcatchment,UT7,user_text_7,사용자 텍스트 7
+Subcatchment,UT8,user_text_8,사용자 텍스트 8
+Subcatchment,UT9,user_text_9,사용자 텍스트 9
+Subcatchment,wasteprof,wastewater_profile,하수 프로파일
+Subcatchment,x,x,X
+Subcatchment,y,y,Y
