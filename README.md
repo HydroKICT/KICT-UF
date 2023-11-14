@@ -1,9 +1,9 @@
 # KICT-UF
 우수관망 흐름과 지표수 흐름을 동시에 모의하여 도심지 침수를 해석하는 모형
 # 개발환경
-우수관망 : EPA-SWMM 5 (C)
-지표수 : Diffusive Wave Model (Intel Fortran)
-GUI : Visual C++
+**우수관망** : EPA-SWMM 5 (C)
+**지표수** : Diffusive Wave Model (Intel Fortran)
+**GUI** : Visual C++
 # 모형실행 절차
 1. 우수관망 설계자료(SHP file)을 활용하여 우수관망자료 구축
 2. 지형표고, 토양특성 및 토지피복을 고려한 직접유출량 산정모형 구축
